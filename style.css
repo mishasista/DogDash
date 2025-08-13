@@ -304,7 +304,7 @@ p{
   z-index: 2;
   height: 4vh;
   left: 3%;
-  top: 3%;
+  top: 4.5%;
   margin-right: 3%;
 }
 
@@ -312,22 +312,13 @@ p{
   position: absolute;
   z-index: 2;
   height: 15vw;
-  margin-left: 3%;
-  /*left: 7%;*/
-  top: 2%;
+  top: 3%;
+  left: 6%;
   font-size: 6vh;
   font-family: "Nerko One", cursive;
   color: white;
 }
 
-.park_img{
-  width: 100%;
-  border-radius: 25px;
-  /*clip-path: circle(50%);*/
-  margin-left:auto;
-  
-  
-}
 
 #location-header{
   margin-top: 2%;
@@ -339,4 +330,11 @@ p{
 #location-header a{
   color:blue;
   text-decoration: underline;
+}
+
+.park_img{
+  width: 100%;
+  border-radius: 25px;
+  /*clip-path: circle(50%);*/
+  margin-left:auto;
 }
